@@ -32,9 +32,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'bootstrap',
-    'fontawesome',
-    'ckeditor',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
