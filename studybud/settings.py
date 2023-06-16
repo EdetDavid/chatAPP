@@ -93,11 +93,9 @@ WSGI_APPLICATION = "studybud.wsgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'studybudDB',
-        'USER': 'Dvooskid',
-        'HOST': 'studybud.czxqbxbbue9x.us-east-1.rds.amazonaws.com',
-        'PASSWORD': 'Dvooskid001',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
+        
        
     }
 
